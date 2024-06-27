@@ -1,5 +1,8 @@
-// Set current year
+
 document.getElementById('currentyear').textContent = new Date().getFullYear();
 
-// Set last modified date
 document.getElementById('lastModified').textContent = 'Last Modified: ' + document.lastModified;
+
+document.getElementById('currentDateTime').textContent = new Date().toLocaleString();
+
+document.getElementById('country').textContent = 'Mexico';
