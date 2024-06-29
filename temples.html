@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 600px)">
+    <script src="scripts/temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="menu" id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Temple Gallery</h2>
+        <div class="gallery">
+            <figure>
+                <img src="images/templomexico.jpg" alt="Temple 1" class="responsive-image large-image">
+                <figcaption>Mexico city Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/templogdl.jpeg" alt="Temple 2" class="responsive-image small-image">
+                <figcaption>Guadalajara Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/templooaxaca.webp" alt="Temple 3" class="responsive-image large-image">
+                <figcaption>Oaxaca Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/templopuebla.jpg" alt="Temple 4" class="responsive-image small-image">
+                <figcaption>Puebla Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Jacem Aragon. All rights reserved.</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
