@@ -1,0 +1,23 @@
+nav .menu-icon {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+.gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.large-image {
+    max-width: 100%; 
+}
+
+.small-image {
+    max-width: 100%; 
+}
