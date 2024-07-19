@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temple Album</title>
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 600px)">
+    <script src="scripts/temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Filtered Temple Album</h1>
+        <nav>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="menu" id="menu">
+                <li><a href="#" id="homeLink">Home</a></li>
+                <li><a href="#" id="oldLink">Old</a></li>
+                <li><a href="#" id="newLink">New</a></li>
+                <li><a href="#" id="largeLink">Large</a></li>
+                <li><a href="#" id="smallLink">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Temple Gallery</h2>
+        <div class="gallery" id="templeGallery">
+            <!-- Dynamic temple cards will be generated here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Jacem Aragon. All rights reserved.</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
