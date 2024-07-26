@@ -1,0 +1,11 @@
+nav .menu-icon {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}

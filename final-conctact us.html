@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Devices - Contact</title>
+    <link rel="stylesheet" href="styles/product-final.css">
+    <link rel="stylesheet" href="styles/product-large.css" media="(min-width: 600px)">
+    <script src="scripts/product-final.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Smart Devices</h1>
+        <nav>
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="menu" id="menu">
+                <li><a href="final.html">Home</a></li>
+                <li><a href="product-final.html">Products</a></li>
+                <li><a href="final-about us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need support, feel free to reach out to us through the following ways:</p>
+            <p>Email: jacembyu@gmail.com</p>
+            <p>Phone: (667) 456-7890</p>
+            <p>Address: 123 Tech Avenue, Sinaloa, MX</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Smart Devices. All rights reserved.</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
